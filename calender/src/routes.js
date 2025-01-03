@@ -6,7 +6,7 @@ import Dashboard from '../src/components/UserModule/Dashboard';
 const Routes1 = () => {
   return (
       <Routes>
-        <Route path="/admin"  element={<CompanyManagement/>}  />
+        <Route path="/"  element={<CompanyManagement/>}  />
         <Route path="/user"  element={<Dashboard/>}  />
       </Routes>
   );
