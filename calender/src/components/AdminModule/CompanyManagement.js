@@ -64,7 +64,7 @@ const CompanyManagement = () => {
   };
 
   const fetchCompaniesData = async () => {
-    let dt = await fetch("https://calender-m4nc.onrender.com/api/companies", {
+    let dt = await fetch("https://calender-1-3vrz.onrender.com/api/companies", {
       method: "GET",
       headers: {
           "Content-Type": 'application/json'
