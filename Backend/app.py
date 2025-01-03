@@ -103,4 +103,4 @@ def get_due_communications():
     return jsonify([comm for comm in due_communications])
 
 if __name__ == '__main__':
-    app.run(debug=True,host="localhost", port=int(os.environ.get("PORT", 10000)))
+    app.run(debug=True,host="localhost", port=int(os.environ.get("PORT", 3235)))
